@@ -1,0 +1,37 @@
+1.	open a command window
+2.	Change  to Derby Folder
+3.	Change to bin folder
+4.	Run the command startNetworkServer
+5.	open another command window ane change to Derby folder
+6.	Run the command "java -jar lib\derbyrun.jar ij"
+
+	ij>  connect 'jdbc:derby:testdb;create=true';
+
+	Employee Table Structure
+	---------------------------------------
+
+	create table Employee(
+		id integer NOT NULL GENERATED ALWAYS AS IDENTITY,
+		name varchar(30),
+		gender char(1),
+		doj date,
+		salary real,
+                primary key(id));
+	
+	Employee Row Insertion
+	----------------------------------------
+	insert into employee(name,gender,doj,salary) values('Rahul', 'M', '2012-10-25', 50000.00);
+
+
+	You can use DDL and DML statements
+
+	
+
+7.	Press Ctrl+C to quit ij
+
+8.  	open other command window
+
+9.	Change  Derby Folder
+10.	Change to bin folder
+11.	Run the command stopNetworkServer	
+

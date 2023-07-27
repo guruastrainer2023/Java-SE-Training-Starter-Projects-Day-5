@@ -1,0 +1,8 @@
+https://www.tutorialspoint.com/apache_derby/apache_derby_create_table.htm
+https://db.apache.org/derby/docs/10.16/getstart/twwdactivity1.html
+https://db.apache.org/derby/docs/10.3/tools/ttoolsijcreatedatabase.html
+https://db.apache.org/derby/docs/10.2/workingwithderby/twwdactivity1.html
+https://www.cloudduggu.com/derby/data-type/
+https://db.apache.org/derby/docs/10.2/ref/rrefsqlj24513.html
+https://razorsql.com/features/derby_add_primary_key.html
+https://www.tutorialspoint.com/apache_derby/apache_derby_data_types.htm
