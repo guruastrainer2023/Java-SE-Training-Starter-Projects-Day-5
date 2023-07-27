@@ -35,3 +35,21 @@
 10.	Change to bin folder
 11.	Run the command stopNetworkServer	
 
+
+Date Convertions
+-----------------------
+
+// LocalDate to SQL date using valueOf() method.
+        Date sqlDate = Date.valueOf(currentDate);
+ 
+        // printing
+        System.out.println("With current local date");
+        System.out.println("LocalDate : " + currentDate);
+        System.out.println("SQL Date : " + sqlDate);
+
+// Creating sql date
+        Date sqlDate = Date.valueOf("2020-12-31");
+         
+        // converting sql date to localdate using toLocalDate() method.
+        LocalDate localDate1 = sqlDate.toLocalDate();
+
